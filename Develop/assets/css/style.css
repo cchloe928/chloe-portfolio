@@ -140,17 +140,22 @@ background {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(183, 255, 0, 0.319);
     color: #ffffff;
+    text-align: justify;
+    display: inline-block;
 }
 
 .about-me {
     width: 50%;
     padding: 5px;
+    float: left;
 }
 
 .about-coding {
     width: 50%;
     padding: 5px;
+    float: left;
 }
+
 
 
 
@@ -201,6 +206,8 @@ background {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(183, 255, 0, 0.319);
     color: #ffffff;
+    text-align: justify;
+    display: inline-block;
 }
 
 .contact-instagram {
