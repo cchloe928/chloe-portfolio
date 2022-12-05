@@ -1,5 +1,3 @@
-@media screen and (min-width: 1125px) {
-
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style: circle;
@@ -167,28 +165,34 @@ background {
 
 .portfolio__container {
     display: flex;
-    flex-wrap: wrap;
 }
 
+.horiseon {
+    height: 20rem;
+    width: auto;
+}
 
-
-.portfolio > a > img {
-    width: 30px;
-    height: 40px;
+.horiseon__page {
+   height: 50rem;
+   width: auto;
+}
+/* .portfolio > a > img {
+    width: 10rem;
+    height: auto;
     margin: auto;
     background: rgba(0, 0, 0, 0);
     color: black;
     max-width: 50%;
     padding: 20px;
-}
+} */
 
 
-.portfolio > row > column > a > img {
+/* .portfolio > row > column > a > img {
     padding: 10px;
     margin: 10px auto;
     width: 50px;
     height: 50px;
-}
+} */
 
 
 .contact {
